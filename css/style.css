@@ -1,0 +1,97 @@
+﻿*{margin:0;padding: 0;list-style: none; }
+html,body {-webkit-overflow-scrolling: touch;max-width:100% !important; min-height: 100% !important; font-size: 0.25rem; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;}
+a{list-style: none; text-decoration:none;outline: none; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+/*去除苹果设备默认属性*/
+input[type="button"],input[type="submit"],input[type="reset"],input[type="text"],input[type="tel"],button{-webkit-appearance: none;}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {  -webkit-appearance: none !important;  margin: 0; }
+textarea{-webkit-appearance:none;border-radius:0;}
+/*去除Chrome等浏览器文本框默认发光边框*/
+input:focus,textarea:focus,button:focus{outline:none;}
+.boxsizing{box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+.clearfix:after{content:" ";display:block;height:0;clear:both;visibility:hidden}
+img{border:0;vertical-align:middle}
+a img,img{-ms-interpolation-mode:bicubic}
+ul::-webkit-scrollbar {display: none}
+em{font-style: normal}
+.parent:after{clear: both;  content: ''; display: block;}/*清除浮动*/
+/*点击按钮下按*/
+.nowbtn{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;/*取消长按复制*/}
+.nowbtn:active{-webkit-transform:scale(0.95);transform:scale(0.95);}
+.g-btn{text-align: center;margin-top: 0.1rem}
+.g-btn a{padding: 0.14rem 0.37rem;border-radius: 0.5rem;background: #8d704a;color:#fff;font-size: 0.27rem;margin: 0 0.2rem}
+/*******************css*************************/
+.wecha_index{background-color: #eeeeee;margin-bottom: 1rem}
+.wecha_index_top{border-top: 1px solid #eeeeee;background-color: white;padding: 0.3rem;color: #3d3d3d}
+.wecha_index_top_img{width: 1rem;height: 1rem;border-radius: 0.1rem}
+#wecha_index_name{margin-left: 0.1rem;font-size: 0.25rem}
+.wecha_Cti_box{margin-top: 0.15rem;background-color: white}
+.wecha_Cti_img{width: 1rem;height: 1rem;border-radius: 1rem}
+.wecha_Cti_but{float:right;margin-top: 5%;font-size: 0.14rem;width: 1rem;height: 0.35rem;border: none;border-radius: 0.15rem;background-color: #ff4441;color: white}
+.wecha_Cti_list{padding: 0.3rem; border-bottom: 1px solid #eeeeee;color: #3d3d3d}
+.wecha_Cti_list span{margin-left: 0.1rem}
+.wecha_Cti{background-color: #eeeeee;margin-bottom: 1rem}
+.wecha_cti_top{border-top: 1px solid #eeeeee;background-color: white;padding: 0.3rem;color: #3d3d3d}
+#wecha_cti_top_img{width: 1rem;height: 1rem;}
+#wecha_cti_name{margin-left: 0.1rem;font-size: 0.25rem}
+.wecha_details_box{margin-top: 0.15rem;background-color: white}
+#cti_participate_btn{width: 80%;margin-left: 10%;background-color: #04be02;border: none;color: white;height: 0.6rem;font-size: 0.25rem;margin-top:0.6rem;border-radius: 0.1rem}
+.wx_shop_list{padding: 0.3rem; border-bottom: 1px solid #eeeeee;color: #3d3d3d;line-height: 0.5rem}
+#evaluation_img{width: 1.5rem;height: 1.5rem}
+.wx_par_ctibox{padding: 0.3rem}
+.wx_par_ctibox table{border: 1px solid #eeeeee;width: 100%;}
+#wx_par_textarea{width: 100%;height:35vh;border:none;font-size: 0.3rem;background-color: #eeeeee;}
+.wx_par_btn{margin-left: 70%;font-size: 0.2rem;background-color:#04be02;color: white;width: 20%;border: none;margin-top: 0.1rem;height: 0.5rem;border-radius: 0.1rem}
+/*.wecha_nav{background-color: white;width: 100%;position:fixed;z-activity:999;left:0;right:0;bottom:0;text-align: center;border-top: 1px solid #eeeeee;font-size: 0.1rem}*/
+.wecha_nav{font-size: 0.15rem;position:fixed;z-index:999;left:0;right:0;bottom:0;background-color: white;display: grid;grid-template-columns: repeat(3,1fr);grid-template-rows: 10%;grid-gap: 0.8rem;color: #3d3d3d}
+
+.wecha_nav ul{text-align: center}
+/*.wecha_nav_left{width: 49.9%;float:left;background-color: white;}*/
+/*.wecha_nav_right{width: 49.9%;float:right;background-color: white;}*/
+.wecha_nav_fontColor{color: red}
+.wecha_myind_list{font-size: 0.25rem;}
+.wecha_myind_list li{display: flex;justify-content: space-between;align-items: center;padding: 0.1rem}
+
+/*#wecha_myind_list_on{width: 0.3rem}*/
+.details_img{width: 0.3rem;float: right;}
+.wecha_myind_list_li{margin-top: 0.15rem;border-bottom: 1px solid #eeeeee;display: flex;display: -webkit-flex;flex-direction: row;align-items: center;justify-content: space-between}
+.wx_activityName{margin:0.1rem}
+.Cti_details_page{font-size: 0.15rem;padding: 0.15rem;background-color: white}
+.Cti_details_page_ul{line-height: 0.5rem}
+.goodimg{margin-top: 0.2rem;width: 2rem;}
+.binimg{width: 60%;position: fixed;margin: 1rem;display: none;background-color: white}
+.binimg img{width: 100%}
+.wx_myctistate{font-size: 0.15rem;color: red;margin-left: -50%}
+
+.Header_information{background-color: #ffffff;width: 100%}
+.Header_information td{text-align: center}
+
+
+.selected{border-bottom:1px solid #04be02;color:#04be02}/***选中后的样式**/
+.audit li img,.Refused li img,.send li img{margin-left: 0.2rem}
+
+.Shuffling_figure img{width: 100%}
+.menuImg{font-size: 0.15rem;background-color: white;color: #3d3d3d;width: 100%}
+.menuImg td{text-align: center}
+.menuImg img{width: 50%}
+/**消息轮播**/
+.root{
+height: .35rem;
+line-height: .35rem;
+border-top: .01rem solid #ccc;
+font-size: .12rem;
+overflow: hidden;
+
+}
+.mainright{
+    float: left;
+    padding: 0 .1rem;
+
+}
+.messageImg{margin-left: 0.1rem;margin-right: 0.2rem}
+.wx_index_content{text-align: center;margin-top: 25%;}
+.wx_index_content img{width: 30%}
+.wx_index_content p{margin-top: 5%;font-size: 0.12rem;color: #999999}
+#wx_cti_taobaoOrder{border: 1px solid #999999;width: 100%}
+
+.navButto{font-size: 0.15rem;position:fixed;z-index:999;left:0;right:0;bottom:0;background-color: white;color: #3d3d3d;width: 100%}
+.navButto td{text-align: center}

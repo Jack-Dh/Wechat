@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>骏然</title>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="jquery.cookie.js"></script>
+    <script>
+        $(function () {
+            var pagurl = window.location.href;
+            var indurl = pagurl.indexOf('=');
+            var token = pagurl.substr(indurl + 1, 64)  //获取后端传输到url中的token
+            $.cookie('wxtoken', token, {path: '/'});//将token存储到cookie
+            var wxtoken = $.cookie('wxtoken');//获取存在cookie中的token
+            console.log(wxtoken)
+            window.location.href='../page/index/index.html'
+
+
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>
